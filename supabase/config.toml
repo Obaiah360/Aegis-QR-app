@@ -1,0 +1,10 @@
+project_id = "wtynvhbewqvoklbuakrd"
+
+[functions.analyze-document]
+verify_jwt = false
+
+[functions.get-document-urls]
+verify_jwt = false
+
+[functions.enhance-document]
+verify_jwt = false

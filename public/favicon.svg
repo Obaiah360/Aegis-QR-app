@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 118" fill="none">
+  <defs>
+    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="sf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#060d1f"/>
+    </linearGradient>
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield fill -->
+  <path d="M50 4 L90 20 L90 58 C90 82 72 100 50 110 C28 100 10 82 10 58 L10 20 Z" fill="url(#sf)"/>
+  <!-- Shield border -->
+  <path d="M50 4 L90 20 L90 58 C90 82 72 100 50 110 C28 100 10 82 10 58 L10 20 Z" stroke="url(#sg)" stroke-width="3" fill="none"/>
+  <!-- Center chip -->
+  <rect x="38" y="46" width="24" height="24" rx="2" stroke="url(#cg)" stroke-width="1.5" fill="none"/>
+  <rect x="43" y="51" width="14" height="14" rx="1" stroke="url(#cg)" stroke-width="1" fill="rgba(56,189,248,0.08)"/>
+  <!-- Pins top -->
+  <line x1="44" y1="46" x2="44" y2="40" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="50" y1="46" x2="50" y2="40" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="56" y1="46" x2="56" y2="40" stroke="url(#cg)" stroke-width="1.2"/>
+  <!-- Pins bottom -->
+  <line x1="44" y1="70" x2="44" y2="76" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="50" y1="70" x2="50" y2="76" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="56" y1="70" x2="56" y2="76" stroke="url(#cg)" stroke-width="1.2"/>
+  <!-- Pins left -->
+  <line x1="38" y1="52" x2="32" y2="52" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="38" y1="58" x2="32" y2="58" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="38" y1="64" x2="32" y2="64" stroke="url(#cg)" stroke-width="1.2"/>
+  <!-- Pins right -->
+  <line x1="62" y1="52" x2="68" y2="52" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="62" y1="58" x2="68" y2="58" stroke="url(#cg)" stroke-width="1.2"/>
+  <line x1="62" y1="64" x2="68" y2="64" stroke="url(#cg)" stroke-width="1.2"/>
+  <!-- Center dot -->
+  <circle cx="50" cy="58" r="2.5" fill="#38bdf8" opacity="0.9"/>
+</svg>

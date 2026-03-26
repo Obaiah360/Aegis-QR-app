@@ -1,0 +1,1 @@
+ALTER TABLE public.qr_codes ADD COLUMN download_enabled boolean NOT NULL DEFAULT true;
